@@ -22,3 +22,16 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Dependências
+/node_modules
+
+# Arquivos de build
+/dist
+
+# Arquivos de ambiente (SEGREDO)
+.env
+.env.local
+
+# Logs e arquivos de sistema
+npm-debug.log*
+.DS_Store
